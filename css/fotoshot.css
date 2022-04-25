@@ -35,8 +35,7 @@ main div {
   padding: 10px;
 }
 
-blockquote p {
-  padding: 0px 0px 0px 50px;
+.card p {
   color: black;
   text-align: center;
 }
