@@ -1,0 +1,35 @@
+@import"../base/variables.scss";
+
+%ZMF-nav{
+    display: inline-block;
+    text-align: start;
+    color:$blanco-general;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+%no-deco-links{
+    text-decoration: none;
+    padding: 10px;
+    color: $blanco-general;
+}
+%no-viñetas-listas{
+    list-style-type: none;
+    padding-left: 10pxs
+}
+%tipografia{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:$blanco-general;
+}
+%div-nav-position{
+    position: relative;
+    z-index: 3;
+}
+%h3-nav-position{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    z-index: -1;
+}

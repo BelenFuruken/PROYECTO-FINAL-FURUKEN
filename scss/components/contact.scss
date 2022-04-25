@@ -1,0 +1,84 @@
+@import"../base/extends.scss";
+@import"../base/variables.scss";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: $blanco-general;
+}
+ul li{
+    list-style-type: none;
+}
+input{
+    width: 500px;
+    height: 15px;
+}
+body{
+    overflow-x: hidden;
+    @extend%tipografia;
+    nav{
+        div{
+            padding: 0px 15px 0px 15px;
+            a{
+                h2{
+                    @extend%tipografia;
+                    font-size: x-large;
+                }
+            }
+            h1{
+                font-size: x-large;
+            }
+        }
+    }
+}
+main{
+    div{
+        div{
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            justify-content: space-around;
+        }
+    }
+    div{
+        color:black;
+    }
+}
+footer{
+    text-align: center;
+    margin-bottom: 7px;
+    background-color: darkgrey;
+    padding: 40px 20px 40px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    div{
+        width: 200px;
+        height: 200px;
+        margin: 17px;
+        background-color: $blanco-general;
+        border: 0px solid transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        div{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: brown;
+            display: flex;
+            justify-self: center;
+        }
+        a{
+            h5{
+                color: black;
+            }
+        }
+    }
+}

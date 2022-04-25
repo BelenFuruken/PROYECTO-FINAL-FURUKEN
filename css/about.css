@@ -1,0 +1,85 @@
+body nav div a h2, body {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: rgba(240, 248, 255, 0.966);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(240, 248, 255, 0.966);
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.pading-img {
+  padding: 15px;
+}
+
+@media (max-width: 1200px) {
+  .conteiner-grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+body nav div {
+  padding: 0px 15px 0px 15px;
+}
+body nav div a h2 {
+  font-size: x-large;
+}
+body nav div h1 {
+  font-size: x-large;
+}
+
+main {
+  margin: 0px 32px 0px 32px;
+}
+
+.espacio {
+  padding: 40px 0px 40px 0px;
+}
+.espacio .a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.espacio .a div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.espacio .a div h3 {
+  color: black;
+  font-size: 45px;
+  margin: 25px 0px 15px 0px;
+  font-weight: bold;
+  text-align: center;
+}
+.espacio .a div p {
+  color: black;
+  font-size: 16px;
+  margin: 25px 0px 15px 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+footer div {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=about.css.map */

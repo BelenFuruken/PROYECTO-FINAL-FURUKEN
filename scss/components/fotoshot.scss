@@ -1,0 +1,51 @@
+@import"../base/extends.scss";
+@import"../base/variables.scss";
+@import"../base/mixin.scss";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: $blanco-general;
+}
+ul li{
+    list-style-type: none;
+}
+body{
+    overflow-x: hidden;
+    @extend%tipografia;
+    nav{
+        div{
+            padding: 0px 15px 0px 15px;
+            a{
+                h2{
+                    @extend%tipografia;
+                    font-size:x-large;
+                }
+            }
+            h1{
+                font-size: x-large;
+            }
+        }
+    }
+}
+main{
+    div{
+        margin: 10px;
+        padding: 10px;
+    }
+}
+blockquote{
+    p{
+        padding: 0px 0px 0px 50px;
+        color: black;
+        text-align: center;
+    }
+}
+footer{
+    @include footer(center, 20px, 7px);
+    div{
+        display: inline-block;
+    }
+}

@@ -1,0 +1,6 @@
+@mixin footer($t-a, $m-t, $m-b){
+    width: 100%;
+    text-align: $t-a;
+    margin-top: $m-t;
+    margin-bottom: $m-b;
+}

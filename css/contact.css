@@ -1,0 +1,83 @@
+body nav div a h2, body {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: rgba(240, 248, 255, 0.966);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(240, 248, 255, 0.966);
+}
+
+ul li {
+  list-style-type: none;
+}
+
+input {
+  width: 500px;
+  height: 15px;
+}
+
+body {
+  overflow-x: hidden;
+}
+body nav div {
+  padding: 0px 15px 0px 15px;
+}
+body nav div a h2 {
+  font-size: x-large;
+}
+body nav div h1 {
+  font-size: x-large;
+}
+
+main div div {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+}
+main div {
+  color: black;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 7px;
+  background-color: darkgrey;
+  padding: 40px 20px 40px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer div {
+  width: 200px;
+  height: 200px;
+  margin: 17px;
+  background-color: rgba(240, 248, 255, 0.966);
+  border: 0px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer div div {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: brown;
+  display: flex;
+  justify-self: center;
+}
+footer div a h5 {
+  color: black;
+}
+
+/*# sourceMappingURL=contact.css.map */
